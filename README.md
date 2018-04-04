@@ -1,5 +1,12 @@
 # Smart Contract Payroll
 
+<div>
+
+[![Build Status](https://travis-ci.org/NFhbar/payroll.png?branch=master)](https://travis-ci.org/NFhbar/payroll)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
+</div>
+
 Payroll Smart Contract with [Truffle](https://github.com/trufflesuite/truffle-core) and
 [Zeppelin Solidity](https://github.com/OpenZeppelin/zeppelin-solidity). It allows an owner to
 manage employees. Employees can request payment in tokens for given pay periods.
