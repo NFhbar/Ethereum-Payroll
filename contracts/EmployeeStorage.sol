@@ -1,4 +1,4 @@
-pragma solidity 0.4.19;
+pragma solidity ^0.4.19;
 
 /// @title EmployeeStorage contract - Manage employees for Payroll contract.
 /// @author Nicolas frega - <nicolas.frega@srax.com>

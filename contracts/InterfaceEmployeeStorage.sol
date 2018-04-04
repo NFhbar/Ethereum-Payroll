@@ -1,4 +1,4 @@
-pragma solidity 0.4.19;
+pragma solidity ^0.4.19;
 
 contract InterfaceEmployeeStorage {
 
@@ -12,7 +12,7 @@ contract InterfaceEmployeeStorage {
     function getAddress(uint256 _id) public constant returns(address);
     function getLatestPayday(address _address) public constant returns (uint256);
     function getMonthlySalary(address _address) public constant returns(uint256);
-    
+
     function remove(address _address) public;
 
 }

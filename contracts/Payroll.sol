@@ -1,4 +1,4 @@
-pragma solidity 0.4.19;
+pragma solidity ^0.4.19;
 
 /// @title Payroll contract - Manage employees and token payments
 /// @author Nicolas frega - <nicolas.frega@srax.com>
