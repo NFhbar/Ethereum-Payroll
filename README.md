@@ -3,7 +3,7 @@
 <div>
 
 [![Build Status](https://travis-ci.org/NFhbar/payroll.png?branch=master)](https://travis-ci.org/NFhbar/payroll)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/NFhbar/payroll/issues)
 
 </div>
 
