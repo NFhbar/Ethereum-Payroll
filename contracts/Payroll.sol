@@ -56,8 +56,9 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         payable
     {
-        if (msg.value > 0)
-            Deposit(msg.sender, msg.value);
+        if (msg.value > 0) {
+            emit Deposit(msg.sender, msg.value);
+          }
     }
 
      /*
@@ -82,7 +83,7 @@ contract Payroll is InterfacePayroll, Ownable {
         higherThanZero(_monthlySalary)
     {
         employeeStorage.add(_address, _monthlySalary, _startDate);
-        NewEmployee(_address);
+        emit NewEmployee(_address);
     }
 
     /// @dev changes the address of an existing employee.
@@ -95,7 +96,7 @@ contract Payroll is InterfacePayroll, Ownable {
     {
         address employeeAddress = employeeStorage.getAddress(_id);
         employeeStorage.setAddress(employeeAddress, _address);
-        EmployeeAddressChange(employeeAddress);
+        emit EmployeeAddressChange(employeeAddress);
     }
 
     /// @dev changes the payday of an existing employee.
@@ -107,7 +108,7 @@ contract Payroll is InterfacePayroll, Ownable {
         validAddress(_address)
     {
         employeeStorage.setlatestPayday(_address, _date);
-        EmployeePaydayChange(_address, _date);
+        emit EmployeePaydayChange(_address, _date);
     }
 
     /// @dev changes the salary of an existing employee.
@@ -120,7 +121,7 @@ contract Payroll is InterfacePayroll, Ownable {
     {
         address employeeAddress = employeeStorage.getAddress(_id);
         employeeStorage.setMonthlySalary(employeeAddress, _monthlySalary);
-        EmployeeSalaryChange(employeeAddress, _monthlySalary);
+        emit EmployeeSalaryChange(employeeAddress, _monthlySalary);
 
     }
 
@@ -233,7 +234,7 @@ contract Payroll is InterfacePayroll, Ownable {
     {
         address employeeAddress = employeeStorage.getAddress(_id);
         employeeStorage.remove(employeeAddress);
-        EmployeeRemoved(employeeAddress, _id);
+        emit EmployeeRemoved(employeeAddress, _id);
     }
 
     /// @dev allows employee to get payed.
@@ -249,7 +250,7 @@ contract Payroll is InterfacePayroll, Ownable {
         uint256 newPayday = employeeStorage.getLatestPayday(msg.sender);
         newPayday++;
         employeeStorage.setlatestPayday(msg.sender, newPayday);
-        EmployeePayed(msg.sender, newPayday--);
+        emit EmployeePayed(msg.sender, newPayday--);
 
     }
 
