@@ -6,7 +6,7 @@ cache:
   directories:
   - node_modules
 script:
-  - npm run ganache
+  - ganache-cli -p 9545 -m 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat' > /dev/null &
   - sleep 5
   - truffle migrate
   - truffle test
