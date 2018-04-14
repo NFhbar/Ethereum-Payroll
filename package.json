@@ -33,9 +33,7 @@
     "coveralls": "^3.0.0",
     "dotenv": "^4.0.0",
     "ethereumjs-wallet": "^0.6.0",
-    "ganache-cli": "^6.1.0",
     "solidity-coverage": "^0.4.15",
-    "truffle": "^4.1.5",
     "truffle-wallet-provider": "0.0.5"
   },
   "dependencies": {
