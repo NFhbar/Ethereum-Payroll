@@ -2,7 +2,7 @@ sudo: required
 dist: trusty
 language: node_js
 node_js:
-  - '7'
+  - 'stable'
 cache:
   directories:
   - node_modules
@@ -13,7 +13,8 @@ install:
 script:
   - npm run ganache
   - sleep 5
-  - npm tests
+  - truffle migrate
+  - truffle test
   - npm run stop
 after_script:
   - npm run coverage && cat coverage/lcov.info | coveralls
