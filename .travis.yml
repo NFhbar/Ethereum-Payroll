@@ -13,8 +13,8 @@ install:
 script:
   - npm run ganache
   - sleep 5
-  - npm migrate
-  - npm tests
+  - truffle migrate
+  - truffle test
   - npm run stop
 after_script:
   - npm run coverage && cat coverage/lcov.info | coveralls
