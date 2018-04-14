@@ -11,6 +11,10 @@ install:
   - npm install -g ganache-cli
   - npm install
 script:
-  - npm run test
+  - npm run ganache
+  - sleep 5
+  - truffle migrate
+  - truffle test
+  - npm run stop
 after_script:
   - npm run coverage && cat coverage/lcov.info | coveralls
