@@ -21,7 +21,7 @@
   "author": "Nicolas Frega - <frega.nicolas@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NFhbar/Ethereum-Payoll"
+    "url": "https://github.com/NFhbar/Ethereum-Payroll"
   },
   "license": "MIT",
   "devDependencies": {
