@@ -5,8 +5,15 @@ node_js:
 cache:
   directories:
   - node_modules
+  install:
+  - npm install -g truffle
+  - npm install -g ganache-cli
+  - npm install
 script:
   - ganache-cli -p 9545 -m 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat' > /dev/null &
   - sleep 5
   - truffle migrate
   - truffle test
+  - npm run stop
+after_script:
+  - npm run coverage && cat coverage/lcov.info | coveralls
