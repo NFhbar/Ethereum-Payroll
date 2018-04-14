@@ -2,7 +2,7 @@
 
 <div>
 
-[![Build Status](https://travis-ci.org/NFhbar/payroll.png?branch=master)](https://travis-ci.org/NFhbar/Ethereum-Payroll)
+[![Build Status](https://travis-ci.org/NFhbar/Ethereum-Payroll.png?branch=master)](https://travis-ci.org/NFhbar/Ethereum-Payroll)
 [![Coverage Status](https://coveralls.io/repos/github/NFhbar/Ethereum-Payroll/badge.svg?branch=master)](https://coveralls.io/github/NFhbar/Ethereum-Payroll?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/NFhbar/payroll/issues)
 
