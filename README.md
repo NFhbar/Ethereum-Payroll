@@ -3,6 +3,7 @@
 <div>
 
 [![Build Status](https://travis-ci.org/NFhbar/payroll.png?branch=master)](https://travis-ci.org/NFhbar/Ethereum-Payroll)
+[![Coverage Status](https://coveralls.io/repos/github/NFhbar/Ethereum-Payroll/badge.svg?branch=master)](https://coveralls.io/github/NFhbar/Ethereum-Payroll?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/NFhbar/payroll/issues)
 
 </div>
@@ -14,7 +15,7 @@ manage employees. Employees can request payment in tokens for given pay periods.
 ## Install
 Clone repo:
 ```
-git clone git@github.com:NFhbar/Ethereum-Payoll.git
+git clone git@github.com:NFhbar/Ethereum-Payroll.git
 ```
 Create a new ```.env``` file in root directory and add your private key:
 ```
@@ -41,6 +42,10 @@ truffle(develop)> migrate
 To test:
 ```
 truffle(develop)> test
+```
+or:
+```
+npm run test
 ```
 
 ## Coverage
