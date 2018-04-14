@@ -10,7 +10,9 @@
     "ganache": "ganache-cli -p 9545 -m 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat' > /dev/null &",
     "stop": "sudo kill `sudo lsof -t -i:9545`",
     "test": "npm run ganache sleep 5 && truffle test && npm run stop",
-    "coverage": "./node_modules/.bin/solidity-coverage"
+    "coverage": "./node_modules/.bin/solidity-coverage",
+    "migrate": "truffle migrate",
+    "tests": "truffle test"
   },
   "keywords": [
     "truffle",
@@ -28,6 +30,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
+    "coveralls": "^3.0.0",
     "dotenv": "^4.0.0",
     "ethereumjs-wallet": "^0.6.0",
     "ganache-cli": "^6.1.0",

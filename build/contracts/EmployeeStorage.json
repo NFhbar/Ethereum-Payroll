@@ -229,8 +229,8 @@
   ],
   "bytecode": "0x60606040526001805560008054600160a060020a033316600160a060020a03199091161790556106c7806100346000396000f3006060604052600436106100b95763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630da32a6b81146100be57806328fca743146100ef57806329092d0e146101135780633b58524d146101325780634b051a8b146101575780635101e128146101765780635bf1e2e11461019b57806365f68c89146101bd5780638da5cb5b146101dc578063a87d942c1461020b578063b93f9b0a1461021e578063f2fde38b14610234575b600080fd5b34156100c957600080fd5b6100dd600160a060020a0360043516610253565b60405190815260200160405180910390f35b34156100fa57600080fd5b610111600160a060020a0360043516602435610282565b005b341561011e57600080fd5b610111600160a060020a03600435166102cc565b341561013d57600080fd5b610111600160a060020a0360043581169060243516610364565b341561016257600080fd5b6100dd600160a060020a0360043516610414565b341561018157600080fd5b610111600160a060020a0360043516602435604435610443565b34156101a657600080fd5b610111600160a060020a036004351660243561050f565b34156101c857600080fd5b6100dd600160a060020a0360043516610556565b34156101e757600080fd5b6101ef610585565b604051600160a060020a03909116815260200160405180910390f35b341561021657600080fd5b6100dd610594565b341561022957600080fd5b6101ef60043561059a565b341561023f57600080fd5b610111600160a060020a03600435166105d9565b60008161025f81610674565b5460ff16151561026e57600080fd5b61027783610674565b600401549392505050565b6000805433600160a060020a0390811691161461029e57600080fd5b826102a881610674565b5460ff1615156102b757600080fd5b6102c084610674565b60050192909255505050565b6000805433600160a060020a039081169116146102e857600080fd5b816102f281610674565b5460ff16151561030157600080fd5b61030a83610674565b60006004820181905560058201819055815460ff1916825560018201556002808201805473ffffffffffffffffffffffffffffffffffffffff19908116909155600390920180549092169091558054600019019055505050565b6000805433600160a060020a0390811691161461038057600080fd5b8261038a81610674565b5460ff16151561039957600080fd5b826103a381610674565b5460ff16156103b157600080fd5b6103ba85610674565b600160a060020a0395861660009081526004602052604080822082905560028301805473ffffffffffffffffffffffffffffffffffffffff1916979098169687179097556001909101549481529490942092909255505050565b60008161042081610674565b5460ff16151561042f57600080fd5b61043883610674565b600501549392505050565b60005433600160a060020a0390811691161461045e57600080fd5b8261046881610674565b5460ff161561047657600080fd5b50600180546000908152600360209081526040808320805460ff19168517905583548084528184208086019190915560029081018054600160a060020a0390991673ffffffffffffffffffffffffffffffffffffffff1990991689179055845484528184206004908101969096558454845281842060050196909655835496835293905291909120839055815481019091559081019055565b60005433600160a060020a0390811691161461052a57600080fd5b8161053481610674565b5460ff16151561054357600080fd5b8161054d84610674565b60040155505050565b60008161056281610674565b5460ff16151561057157600080fd5b61057a83610674565b600101549392505050565b600054600160a060020a031681565b60025490565b600081815260036020526040812054829060ff1615156105b957600080fd5b5050600090815260036020526040902060020154600160a060020a031690565b60005433600160a060020a039081169116146105f457600080fd5b600160a060020a038116151561060957600080fd5b600054600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600160a060020a0316600090815260046020908152604080832054835260039091529020905600a165627a7a723058207ff0b3ec17241c98812e3781b46e73808e52d442b676c199e51cc52095aa97010029",
   "deployedBytecode": "0x6060604052600436106100b95763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630da32a6b81146100be57806328fca743146100ef57806329092d0e146101135780633b58524d146101325780634b051a8b146101575780635101e128146101765780635bf1e2e11461019b57806365f68c89146101bd5780638da5cb5b146101dc578063a87d942c1461020b578063b93f9b0a1461021e578063f2fde38b14610234575b600080fd5b34156100c957600080fd5b6100dd600160a060020a0360043516610253565b60405190815260200160405180910390f35b34156100fa57600080fd5b610111600160a060020a0360043516602435610282565b005b341561011e57600080fd5b610111600160a060020a03600435166102cc565b341561013d57600080fd5b610111600160a060020a0360043581169060243516610364565b341561016257600080fd5b6100dd600160a060020a0360043516610414565b341561018157600080fd5b610111600160a060020a0360043516602435604435610443565b34156101a657600080fd5b610111600160a060020a036004351660243561050f565b34156101c857600080fd5b6100dd600160a060020a0360043516610556565b34156101e757600080fd5b6101ef610585565b604051600160a060020a03909116815260200160405180910390f35b341561021657600080fd5b6100dd610594565b341561022957600080fd5b6101ef60043561059a565b341561023f57600080fd5b610111600160a060020a03600435166105d9565b60008161025f81610674565b5460ff16151561026e57600080fd5b61027783610674565b600401549392505050565b6000805433600160a060020a0390811691161461029e57600080fd5b826102a881610674565b5460ff1615156102b757600080fd5b6102c084610674565b60050192909255505050565b6000805433600160a060020a039081169116146102e857600080fd5b816102f281610674565b5460ff16151561030157600080fd5b61030a83610674565b60006004820181905560058201819055815460ff1916825560018201556002808201805473ffffffffffffffffffffffffffffffffffffffff19908116909155600390920180549092169091558054600019019055505050565b6000805433600160a060020a0390811691161461038057600080fd5b8261038a81610674565b5460ff16151561039957600080fd5b826103a381610674565b5460ff16156103b157600080fd5b6103ba85610674565b600160a060020a0395861660009081526004602052604080822082905560028301805473ffffffffffffffffffffffffffffffffffffffff1916979098169687179097556001909101549481529490942092909255505050565b60008161042081610674565b5460ff16151561042f57600080fd5b61043883610674565b600501549392505050565b60005433600160a060020a0390811691161461045e57600080fd5b8261046881610674565b5460ff161561047657600080fd5b50600180546000908152600360209081526040808320805460ff19168517905583548084528184208086019190915560029081018054600160a060020a0390991673ffffffffffffffffffffffffffffffffffffffff1990991689179055845484528184206004908101969096558454845281842060050196909655835496835293905291909120839055815481019091559081019055565b60005433600160a060020a0390811691161461052a57600080fd5b8161053481610674565b5460ff16151561054357600080fd5b8161054d84610674565b60040155505050565b60008161056281610674565b5460ff16151561057157600080fd5b61057a83610674565b600101549392505050565b600054600160a060020a031681565b60025490565b600081815260036020526040812054829060ff1615156105b957600080fd5b5050600090815260036020526040902060020154600160a060020a031690565b60005433600160a060020a039081169116146105f457600080fd5b600160a060020a038116151561060957600080fd5b600054600160a060020a0380831691167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a36000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b600160a060020a0316600090815260046020908152604080832054835260039091529020905600a165627a7a723058207ff0b3ec17241c98812e3781b46e73808e52d442b676c199e51cc52095aa97010029",
-  "sourceMap": "315:5410:0:-;;;674:1;649:26;;501:5:7;:18;;-1:-1:-1;;;;;509:10:7;501:18;-1:-1:-1;;;;;;501:18:7;;;;;;315:5410:0;;;;;;",
-  "deployedSourceMap": "315:5410:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4337:205;;;;;;;;;;-1:-1:-1;;;;;4337:205:0;;;;;;;;;;;;;;;;;;;;3084:248;;;;;;;;;;-1:-1:-1;;;;;3084:248:0;;;;;;;;;4985:428;;;;;;;;;;-1:-1:-1;;;;;4985:428:0;;;;;2177:399;;;;;;;;;;-1:-1:-1;;;;;2177:399:0;;;;;;;;;;4682:207;;;;;;;;;;-1:-1:-1;;;;;4682:207:0;;;;;1423:583;;;;;;;;;;-1:-1:-1;;;;;1423:583:0;;;;;;;;;2726:196;;;;;;;;;;-1:-1:-1;;;;;2726:196:0;;;;;;;3673:185;;;;;;;;;;-1:-1:-1;;;;;3673:185:0;;;;;238:20:7;;;;;;;;;;;;;;;-1:-1:-1;;;;;238:20:7;;;;;;;;;;;;;;;3422:119:0;;;;;;;;;;;;4004:184;;;;;;;;;;;;;;832:169:7;;;;;;;;;;-1:-1:-1;;;;;832:169:7;;;;;4337:205:0;4471:7;4427:8;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;4501:21;4513:8;4501:11;:21::i;:::-;:34;;;;4337:205;-1:-1:-1;;;4337:205:0:o;3084:248::-;3234:25;653:5:7;;639:10;-1:-1:-1;;;;;639:19:7;;;653:5;;639:19;631:28;;;;;;3210:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;3262:21;3274:8;3262:11;:21::i;:::-;3293:22;;:32;;;;-1:-1:-1;;;3084:248:0:o;4985:428::-;5108:25;653:5:7;;639:10;-1:-1:-1;;;;;639:19:7;;;653:5;;639:19;631:28;;;;;;5084:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;5136:21;5148:8;5136:11;:21::i;:::-;5167:28;5174:21;;;5167:28;;;5212:22;;;5205:29;;;5244:22;;-1:-1:-1;;5244:22:0;;;-1:-1:-1;5283:11:0;;5276:18;5311:23;;;;5304:30;;-1:-1:-1;;5304:30:0;;;;;;-1:-1:-1;5351:29:0;;;5344:36;;;;;;;;5391:15;;-1:-1:-1;;5391:15:0;;;-1:-1:-1;;;4985:428:0:o;2177:399::-;2373:25;653:5:7;;639:10;-1:-1:-1;;;;;639:19:7;;;653:5;;639:19;631:28;;;;;;2301:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;2346:11;1149:21;1161:8;1149:11;:21::i;:::-;:28;;;1148:29;1140:38;;;;;;2401:21;2413:8;2401:11;:21::i;:::-;-1:-1:-1;;;;;2439:28:0;;;;;;;:18;:28;;;;;;2432:35;;;-1:-1:-1;2477:23:0;;:37;;-1:-1:-1;;2477:37:0;;;;;;;;;;;-1:-1:-1;2558:11:0;;;;2524:31;;;;;;;:45;;;;-1:-1:-1;;;2177:399:0:o;4682:207::-;4817:7;4773:8;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;4847:21;4859:8;4847:11;:21::i;:::-;:35;;;;4682:207;-1:-1:-1;;;4682:207:0:o;1423:583::-;653:5:7;;639:10;-1:-1:-1;;;;;639:19:7;;;653:5;;639:19;631:28;;;;;;1566:8:0;1149:21;1161:8;1149:11;:21::i;:::-;:28;;;1148:29;1140:38;;;;;;-1:-1:-1;1629:4:0;1604:14;;1590:29;;;;:13;:29;;;;;;;;:43;;-1:-1:-1;;1590:43:0;;;;;1678:14;;1643:29;;;;;;:32;;;:49;;;;1702:44;;;;:55;;-1:-1:-1;;1702:55:0;-1:-1:-1;;;;;1702:55:0;;;;;;;;;1781:14;;1767:29;;;;;:42;;;;:55;;;;1846:14;;1832:29;;;;;:43;;:60;;;;1934:14;;1903:28;;;;;;;;;;:45;;;1958:15;;;;;;;1983:16;;;;;1423:583::o;2726:196::-;653:5:7;;639:10;-1:-1:-1;;;;;639:19:7;;;653:5;;639:19;631:28;;;;;;2849:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;2910:5;2873:21;2885:8;2873:11;:21::i;:::-;:34;;:42;-1:-1:-1;;;2726:196:0:o;3673:185::-;3797:7;3753:8;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;3827:21;3839:8;3827:11;:21::i;:::-;:24;;;;3673:185;-1:-1:-1;;;3673:185:0:o;238:20:7:-;;;-1:-1:-1;;;;;238:20:7;;:::o;3422:119:0:-;3521:13;;3422:119;:::o;4004:184::-;4118:7;1026:18;;;:13;:18;;;;;:25;4079:3;;1026:25;;1018:34;;;;;;;;-1:-1:-1;;4148:18:0;;;;:13;:18;;;;;:33;;;-1:-1:-1;;;;;4148:33:0;;4004:184::o;832:169:7:-;653:5;;639:10;-1:-1:-1;;;;;639:19:7;;;653:5;;639:19;631:28;;;;;;-1:-1:-1;;;;;908:22:7;;;;900:31;;;;;;958:5;;-1:-1:-1;;;;;937:37:7;;;;958:5;937:37;;;;;;;;;;980:5;:16;;-1:-1:-1;;980:16:7;-1:-1:-1;;;;;980:16:7;;;;;;;;;;832:169::o;5490:232:0:-;-1:-1:-1;;;;;5643:28:0;5580:25;5643:28;;;:18;:28;;;;;;;;;5689:25;;:13;:25;;;;;;5490:232::o",
+  "sourceMap": "315:5410:0:-;;;674:1;649:26;;501:5:6;:18;;-1:-1:-1;;;;;509:10:6;501:18;-1:-1:-1;;;;;;501:18:6;;;;;;315:5410:0;;;;;;",
+  "deployedSourceMap": "315:5410:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;4337:205;;;;;;;;;;-1:-1:-1;;;;;4337:205:0;;;;;;;;;;;;;;;;;;;;3084:248;;;;;;;;;;-1:-1:-1;;;;;3084:248:0;;;;;;;;;4985:428;;;;;;;;;;-1:-1:-1;;;;;4985:428:0;;;;;2177:399;;;;;;;;;;-1:-1:-1;;;;;2177:399:0;;;;;;;;;;4682:207;;;;;;;;;;-1:-1:-1;;;;;4682:207:0;;;;;1423:583;;;;;;;;;;-1:-1:-1;;;;;1423:583:0;;;;;;;;;2726:196;;;;;;;;;;-1:-1:-1;;;;;2726:196:0;;;;;;;3673:185;;;;;;;;;;-1:-1:-1;;;;;3673:185:0;;;;;238:20:6;;;;;;;;;;;;;;;-1:-1:-1;;;;;238:20:6;;;;;;;;;;;;;;;3422:119:0;;;;;;;;;;;;4004:184;;;;;;;;;;;;;;832:169:6;;;;;;;;;;-1:-1:-1;;;;;832:169:6;;;;;4337:205:0;4471:7;4427:8;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;4501:21;4513:8;4501:11;:21::i;:::-;:34;;;;4337:205;-1:-1:-1;;;4337:205:0:o;3084:248::-;3234:25;653:5:6;;639:10;-1:-1:-1;;;;;639:19:6;;;653:5;;639:19;631:28;;;;;;3210:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;3262:21;3274:8;3262:11;:21::i;:::-;3293:22;;:32;;;;-1:-1:-1;;;3084:248:0:o;4985:428::-;5108:25;653:5:6;;639:10;-1:-1:-1;;;;;639:19:6;;;653:5;;639:19;631:28;;;;;;5084:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;5136:21;5148:8;5136:11;:21::i;:::-;5167:28;5174:21;;;5167:28;;;5212:22;;;5205:29;;;5244:22;;-1:-1:-1;;5244:22:0;;;-1:-1:-1;5283:11:0;;5276:18;5311:23;;;;5304:30;;-1:-1:-1;;5304:30:0;;;;;;-1:-1:-1;5351:29:0;;;5344:36;;;;;;;;5391:15;;-1:-1:-1;;5391:15:0;;;-1:-1:-1;;;4985:428:0:o;2177:399::-;2373:25;653:5:6;;639:10;-1:-1:-1;;;;;639:19:6;;;653:5;;639:19;631:28;;;;;;2301:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;2346:11;1149:21;1161:8;1149:11;:21::i;:::-;:28;;;1148:29;1140:38;;;;;;2401:21;2413:8;2401:11;:21::i;:::-;-1:-1:-1;;;;;2439:28:0;;;;;;;:18;:28;;;;;;2432:35;;;-1:-1:-1;2477:23:0;;:37;;-1:-1:-1;;2477:37:0;;;;;;;;;;;-1:-1:-1;2558:11:0;;;;2524:31;;;;;;;:45;;;;-1:-1:-1;;;2177:399:0:o;4682:207::-;4817:7;4773:8;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;4847:21;4859:8;4847:11;:21::i;:::-;:35;;;;4682:207;-1:-1:-1;;;4682:207:0:o;1423:583::-;653:5:6;;639:10;-1:-1:-1;;;;;639:19:6;;;653:5;;639:19;631:28;;;;;;1566:8:0;1149:21;1161:8;1149:11;:21::i;:::-;:28;;;1148:29;1140:38;;;;;;-1:-1:-1;1629:4:0;1604:14;;1590:29;;;;:13;:29;;;;;;;;:43;;-1:-1:-1;;1590:43:0;;;;;1678:14;;1643:29;;;;;;:32;;;:49;;;;1702:44;;;;:55;;-1:-1:-1;;1702:55:0;-1:-1:-1;;;;;1702:55:0;;;;;;;;;1781:14;;1767:29;;;;;:42;;;;:55;;;;1846:14;;1832:29;;;;;:43;;:60;;;;1934:14;;1903:28;;;;;;;;;;:45;;;1958:15;;;;;;;1983:16;;;;;1423:583::o;2726:196::-;653:5:6;;639:10;-1:-1:-1;;;;;639:19:6;;;653:5;;639:19;631:28;;;;;;2849:8:0;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;2910:5;2873:21;2885:8;2873:11;:21::i;:::-;:34;;:42;-1:-1:-1;;;2726:196:0:o;3673:185::-;3797:7;3753:8;914:21;926:8;914:11;:21::i;:::-;:28;;;906:37;;;;;;;;3827:21;3839:8;3827:11;:21::i;:::-;:24;;;;3673:185;-1:-1:-1;;;3673:185:0:o;238:20:6:-;;;-1:-1:-1;;;;;238:20:6;;:::o;3422:119:0:-;3521:13;;3422:119;:::o;4004:184::-;4118:7;1026:18;;;:13;:18;;;;;:25;4079:3;;1026:25;;1018:34;;;;;;;;-1:-1:-1;;4148:18:0;;;;:13;:18;;;;;:33;;;-1:-1:-1;;;;;4148:33:0;;4004:184::o;832:169:6:-;653:5;;639:10;-1:-1:-1;;;;;639:19:6;;;653:5;;639:19;631:28;;;;;;-1:-1:-1;;;;;908:22:6;;;;900:31;;;;;;958:5;;-1:-1:-1;;;;;937:37:6;;;;958:5;937:37;;;;;;;;;;980:5;:16;;-1:-1:-1;;980:16:6;-1:-1:-1;;;;;980:16:6;;;;;;;;;;832:169::o;5490:232:0:-;-1:-1:-1;;;;;5643:28:0;5580:25;5643:28;;;:18;:28;;;;;;;;;5689:25;;:13;:25;;;;;;5490:232::o",
   "source": "pragma solidity ^0.4.19;\n\n/// @title EmployeeStorage contract - Manage employees for Payroll contract.\n/// @author Nicolas frega - <nicolas.frega@srax.com>\n\nimport './InterfaceEmployeeStorage.sol';\nimport \"zeppelin-solidity/contracts/ownership/Ownable.sol\";\nimport \"zeppelin-solidity/contracts/math/SafeMath.sol\";\n\ncontract EmployeeStorage is InterfaceEmployeeStorage, Ownable {\n    using SafeMath for uint256;\n\n    /*\n     *  Storage\n     */\n    struct Employee {\n        bool exists;\n        uint256 id;\n        address accountAddress;\n\n        address tokenContractAddress;\n        uint256 latestPayday;\n        uint256 monthlySalary;\n    }\n\n    uint256 nextEmployeeId = 1;\n    uint256 employeeCount;\n\n    mapping (uint256 => Employee) employessById;\n    mapping (address => uint256) employessByAddress;\n\n    /*\n     *  Modifiers\n     */\n    modifier existingEmployeeAddress(address _address) {\n        require(getEmployee(_address).exists);\n        _;\n    }\n\n    modifier existingEmployeeId(uint256 _id) {\n        require(employessById[_id].exists);\n        _;\n    }\n\n    modifier notExistingEmployeeAddress(address _address) {\n        require(!getEmployee(_address).exists);\n        _;\n    }\n\n    /*\n     * Public functions\n     */\n     /// @dev adds a new employee.\n     /// @param _address Address of new employee.\n     /// @param _monthlySalary uint of salary.\n     /// @param _startDate uint of starting date.\n    function add(address _address, uint256 _monthlySalary, uint256 _startDate)\n        public\n        onlyOwner\n        notExistingEmployeeAddress(_address)\n    {\n        employessById[nextEmployeeId].exists = true;\n        employessById[nextEmployeeId].id = nextEmployeeId;\n        employessById[nextEmployeeId].accountAddress = _address;\n        employessById[nextEmployeeId].latestPayday = _startDate;\n        employessById[nextEmployeeId].monthlySalary = _monthlySalary;\n\n        employessByAddress[_address] = nextEmployeeId;\n        employeeCount++;\n        nextEmployeeId++;\n    }\n\n    /// @dev changes the address of an existing employee.\n    /// @param _address Address of existing employee .\n    /// @param _newAddress new Address of employee.\n    function setAddress(address _address, address _newAddress)\n        public\n        onlyOwner\n        existingEmployeeAddress(_address)\n        notExistingEmployeeAddress(_newAddress)\n    {\n        Employee storage employee = getEmployee(_address);\n        delete employessByAddress[_address];\n        employee.accountAddress = _newAddress;\n        employessByAddress[_newAddress] = employee.id;\n    }\n\n    /// @dev changes the payday of an existing employee.\n    /// @param _address Address of employee.\n    /// @param _date uint of new pay day.\n    function setlatestPayday(address _address, uint256 _date)\n        public\n        onlyOwner\n        existingEmployeeAddress(_address)\n    {\n        getEmployee(_address).latestPayday = _date;\n    }\n\n    /// @dev changes the salary of an existing employee.\n    /// @param _address address of existing employee .\n    /// @param _salary uint of new pay day.\n    function setMonthlySalary(address _address, uint256 _salary)\n        public\n        onlyOwner\n        existingEmployeeAddress(_address)\n    {\n        Employee storage employee = getEmployee(_address);\n        employee.monthlySalary = _salary;\n    }\n\n    /// @dev gets the total employee count.\n    /// @return Returns employee count.\n    function getCount()\n        public\n        constant\n        returns (uint256)\n    {\n        return employeeCount;\n    }\n\n    /// @dev gets the employee ID.\n    /// @param _address Address of existing employee.\n    /// @return Returns employee ID.\n    function getId(address _address)\n        public\n        existingEmployeeAddress(_address)\n        constant\n        returns (uint256)\n    {\n        return getEmployee(_address).id;\n    }\n\n    /// @dev gets the total employee address from ID.\n    /// @param _id ID of existing employee.\n    /// @return Returns employee address.\n    function getAddress(uint256 _id)\n        public\n        existingEmployeeId(_id)\n        constant\n        returns (address)\n    {\n        return employessById[_id].accountAddress;\n    }\n\n    /// @dev gets the latest employee pay day.\n    /// @param _address Address of existing employee.\n    /// @return Returns employee pay day.\n    function getLatestPayday(address _address)\n        public\n        existingEmployeeAddress(_address)\n        constant\n        returns (uint256)\n    {\n        return getEmployee(_address).latestPayday;\n    }\n\n    /// @dev gets the employee salary.\n    /// @param _address Address of existing employee.\n    /// @return Returns employee salary.\n    function getMonthlySalary(address _address)\n        public\n        existingEmployeeAddress(_address)\n        constant\n        returns (uint256)\n    {\n        return getEmployee(_address).monthlySalary;\n    }\n\n\n    /// @dev removes and employee.\n    /// @param _address Address of existing employee.\n    function remove(address _address)\n        public\n        onlyOwner\n        existingEmployeeAddress(_address)\n    {\n        Employee storage employee = getEmployee(_address);\n        delete employee.latestPayday;\n        delete employee.monthlySalary;\n        delete employee.exists;\n        delete employee.id;\n        delete employee.accountAddress;\n        delete employee.tokenContractAddress;\n\n        employeeCount--;\n    }\n\n    /*\n     * Internal functions\n     */\n     //get employee function\n     function getEmployee(address _address)\n        internal\n        constant\n        returns (Employee storage employee)\n    {\n         uint256 employeeId = employessByAddress[_address];\n         return employessById[employeeId];\n     }\n\n}\n",
   "sourcePath": "/home/nico/Desktop/public_repos/payroll/contracts/EmployeeStorage.sol",
   "ast": {
@@ -271,7 +271,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 360,
-        "sourceUnit": 1343,
+        "sourceUnit": 1286,
         "src": "198:59:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -282,7 +282,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 360,
-        "sourceUnit": 1287,
+        "sourceUnit": 1230,
         "src": "258:55:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -314,10 +314,10 @@
               "id": 7,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1342,
+              "referencedDeclaration": 1285,
               "src": "369:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$1342",
+                "typeIdentifier": "t_contract$_Ownable_$1285",
                 "typeString": "contract Ownable"
               }
             },
@@ -328,7 +328,7 @@
         ],
         "contractDependencies": [
           480,
-          1342
+          1285
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -336,7 +336,7 @@
         "id": 359,
         "linearizedBaseContracts": [
           359,
-          1342,
+          1285,
           480
         ],
         "name": "EmployeeStorage",
@@ -349,10 +349,10 @@
               "id": 9,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1286,
+              "referencedDeclaration": 1229,
               "src": "389:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$1286",
+                "typeIdentifier": "t_contract$_SafeMath_$1229",
                 "typeString": "library SafeMath"
               }
             },
@@ -784,7 +784,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1775,
+                      "referencedDeclaration": 1718,
                       "src": "906:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -934,7 +934,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1775,
+                      "referencedDeclaration": 1718,
                       "src": "1018:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1109,7 +1109,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1775,
+                      "referencedDeclaration": 1718,
                       "src": "1140:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1795,7 +1795,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "1521:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2261,7 +2261,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "2259:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2533,7 +2533,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "2807:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2823,7 +2823,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "3168:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -4233,7 +4233,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "5042:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -4583,7 +4583,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 360,
-        "sourceUnit": 1343,
+        "sourceUnit": 1286,
         "src": "198:59:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4594,7 +4594,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 360,
-        "sourceUnit": 1287,
+        "sourceUnit": 1230,
         "src": "258:55:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -4626,10 +4626,10 @@
               "id": 7,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1342,
+              "referencedDeclaration": 1285,
               "src": "369:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$1342",
+                "typeIdentifier": "t_contract$_Ownable_$1285",
                 "typeString": "contract Ownable"
               }
             },
@@ -4640,7 +4640,7 @@
         ],
         "contractDependencies": [
           480,
-          1342
+          1285
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -4648,7 +4648,7 @@
         "id": 359,
         "linearizedBaseContracts": [
           359,
-          1342,
+          1285,
           480
         ],
         "name": "EmployeeStorage",
@@ -4661,10 +4661,10 @@
               "id": 9,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1286,
+              "referencedDeclaration": 1229,
               "src": "389:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$1286",
+                "typeIdentifier": "t_contract$_SafeMath_$1229",
                 "typeString": "library SafeMath"
               }
             },
@@ -5096,7 +5096,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1775,
+                      "referencedDeclaration": 1718,
                       "src": "906:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5246,7 +5246,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1775,
+                      "referencedDeclaration": 1718,
                       "src": "1018:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5421,7 +5421,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1775,
+                      "referencedDeclaration": 1718,
                       "src": "1140:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6107,7 +6107,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "1521:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6573,7 +6573,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "2259:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -6845,7 +6845,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "2807:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -7135,7 +7135,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "3168:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -8545,7 +8545,7 @@
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 1316,
+                  "referencedDeclaration": 1259,
                   "src": "5042:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -8863,5 +8863,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-14T21:12:55.540Z"
+  "updatedAt": "2018-04-14T21:31:39.267Z"
 }
