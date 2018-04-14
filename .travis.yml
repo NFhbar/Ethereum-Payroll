@@ -5,10 +5,6 @@ node_js:
 cache:
   directories:
   - node_modules
-install:
-- npm install -g truffle
-- npm install -g ganache-cli
-- npm install
 script:
   - npm run ganache
   - sleep 5
