@@ -1,11 +1,11 @@
-pragma solidity ^0.4.19;
+pragma solidity ^0.4.21;
 
 /// @title Payroll contract - Manage employees and token payments
 /// @author Nicolas frega - <nicolas.frega@srax.com>
 
-import './InterfacePayroll.sol';
-import './EmployeeStorage.sol';
-import './EmployeeToken.sol';
+import "./InterfacePayroll.sol";
+import "./EmployeeStorage.sol";
+import "./EmployeeToken.sol";
 
 contract Payroll is InterfacePayroll, Ownable {
     using SafeMath for uint256;
@@ -65,7 +65,7 @@ contract Payroll is InterfacePayroll, Ownable {
       * Public functions
       */
     /// @dev Contract constructor sets employee storage and employee token.
-    function Payroll()
+    constructor()
         public
     {
         setEmployeeStorage(new EmployeeStorage());
@@ -130,7 +130,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployeeCount()
         public
         onlyOwner
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getCount();
@@ -143,7 +143,7 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         onlyOwner
         validAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getId(_address);
@@ -155,7 +155,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployeeAddress(uint256 _id)
         public
         onlyOwner
-        constant
+        view
         returns (address)
     {
         return employeeStorage.getAddress(_id);
@@ -168,7 +168,7 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         onlyOwner
         validAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getLatestPayday(_address);
@@ -181,7 +181,7 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         onlyOwner
         validAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getMonthlySalary(_address);
@@ -193,7 +193,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployee(uint256 _id)
         public
         onlyOwner
-        constant
+        view
         returns (address _address, uint256 _payday, uint256 _salary, uint256 _payed)
     {
         _address = employeeStorage.getAddress(_id);
@@ -208,7 +208,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployeeBalance(uint256 _id)
         public
         onlyOwner
-        constant
+        view
         returns (uint256)
     {
         address employeeAddress = employeeStorage.getAddress(_id);
@@ -220,7 +220,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getTotalSupply()
         public
         onlyOwner
-        constant
+        view
         returns (uint256)
     {
         return employeeToken.totalSupply();
@@ -255,26 +255,26 @@ contract Payroll is InterfacePayroll, Ownable {
     }
 
     /*
-     * Internal functions
-     */
-     /// @dev sets the employee storage contract.
-     /// @param _newEmployeeStorage Address of new employee storage.
-     function setEmployeeStorage(address _newEmployeeStorage)
-         internal
-         onlyOwner
-         validAddress(_newEmployeeStorage)
-     {
-         employeeStorage = InterfaceEmployeeStorage(_newEmployeeStorage);
-     }
+    * Internal functions
+    */
+    /// @dev sets the employee storage contract.
+    /// @param _newEmployeeStorage Address of new employee storage.
+    function setEmployeeStorage(address _newEmployeeStorage)
+        internal
+        onlyOwner
+        validAddress(_newEmployeeStorage)
+    {
+        employeeStorage = InterfaceEmployeeStorage(_newEmployeeStorage);
+    }
 
-     /// @dev sets the employee token contract.
-     /// @param _newEmployeetoken Address of new employee token.
-     function setEmployeeToken(address _newEmployeetoken)
-         internal
-         onlyOwner
-         validAddress(_newEmployeetoken)
-     {
-         employeeToken = EmployeeToken(_newEmployeetoken);
-     }
+    /// @dev sets the employee token contract.
+    /// @param _newEmployeetoken Address of new employee token.
+    function setEmployeeToken(address _newEmployeetoken)
+        internal
+        onlyOwner
+        validAddress(_newEmployeetoken)
+    {
+        employeeToken = EmployeeToken(_newEmployeetoken);
+    }
 
 }

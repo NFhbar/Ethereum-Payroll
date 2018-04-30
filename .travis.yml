@@ -10,6 +10,8 @@ cache:
   - npm install -g ganache-cli
   - npm install
 script:
+  - npm run lint
+  - npm run solium
   - npm run ganache
   - sleep 5
   - truffle migrate

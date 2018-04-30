@@ -1,5 +1,5 @@
-var payroll = artifacts.require("Payroll");
+var payroll = artifacts.require('Payroll')
 
 module.exports = function(deployer) {
-  deployer.deploy(payroll);
+    deployer.deploy(payroll)
 }

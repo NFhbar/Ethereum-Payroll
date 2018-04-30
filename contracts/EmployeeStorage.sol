@@ -1,11 +1,11 @@
-pragma solidity ^0.4.19;
+pragma solidity ^0.4.21;
 
 /// @title EmployeeStorage contract - Manage employees for Payroll contract.
 /// @author Nicolas frega - <nicolas.frega@srax.com>
 
-import './InterfaceEmployeeStorage.sol';
-import "zeppelin-solidity/contracts/ownership/Ownable.sol";
-import "zeppelin-solidity/contracts/math/SafeMath.sol";
+import "./InterfaceEmployeeStorage.sol";
+import "./Ownable.sol";
+import "./SafeMath.sol";
 
 contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     using SafeMath for uint256;
@@ -112,7 +112,7 @@ contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     /// @return Returns employee count.
     function getCount()
         public
-        constant
+        view
         returns (uint256)
     {
         return employeeCount;
@@ -124,7 +124,7 @@ contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     function getId(address _address)
         public
         existingEmployeeAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return getEmployee(_address).id;
@@ -136,7 +136,7 @@ contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     function getAddress(uint256 _id)
         public
         existingEmployeeId(_id)
-        constant
+        view
         returns (address)
     {
         return employessById[_id].accountAddress;
@@ -148,7 +148,7 @@ contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     function getLatestPayday(address _address)
         public
         existingEmployeeAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return getEmployee(_address).latestPayday;
@@ -160,7 +160,7 @@ contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     function getMonthlySalary(address _address)
         public
         existingEmployeeAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return getEmployee(_address).monthlySalary;
@@ -186,16 +186,16 @@ contract EmployeeStorage is InterfaceEmployeeStorage, Ownable {
     }
 
     /*
-     * Internal functions
-     */
-     //get employee function
-     function getEmployee(address _address)
+    * Internal functions
+    */
+    //get employee function
+    function getEmployee(address _address)
         internal
-        constant
+        view
         returns (Employee storage employee)
     {
-         uint256 employeeId = employessByAddress[_address];
-         return employessById[employeeId];
-     }
+        uint256 employeeId = employessByAddress[_address];
+        return employessById[employeeId];
+    }
 
 }

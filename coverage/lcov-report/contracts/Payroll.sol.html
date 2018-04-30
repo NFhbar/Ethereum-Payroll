@@ -37,7 +37,7 @@
       <div class='fl pad1y space-right2'>
         <span class="strong">100% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>39/39</span>
+        <span class='fraction'>46/46</span>
       </div>
     </div>
   </div>
@@ -382,7 +382,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -408,7 +408,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">13×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -421,19 +421,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2×</span>
 <span class="cline-any cline-yes">2×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -447,6 +435,18 @@
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -559,7 +559,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-yes">1×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -575,7 +575,7 @@
 <span class="cline-any cline-yes">3×</span>
 <span class="cline-any cline-yes">3×</span>
 <span class="cline-any cline-yes">3×</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3×</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -603,14 +603,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">pragma solidity ^0.4.19;
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">pragma solidity ^0.4.21;
 &nbsp;
 /// @title Payroll contract - Manage employees and token payments
 /// @author Nicolas frega - &lt;nicolas.frega@srax.com&gt;
 &nbsp;
-import './InterfacePayroll.sol';
-import './EmployeeStorage.sol';
-import './EmployeeToken.sol';
+import "./InterfacePayroll.sol";
+import "./EmployeeStorage.sol";
+import "./EmployeeToken.sol";
 &nbsp;
 contract Payroll is InterfacePayroll, Ownable {
     using SafeMath for uint256;
@@ -670,7 +670,7 @@ contract Payroll is InterfacePayroll, Ownable {
       * Public functions
       */
     /// @dev Contract constructor sets employee storage and employee token.
-    function Payroll()
+    constructor()
         public
     {
         setEmployeeStorage(new EmployeeStorage());
@@ -735,7 +735,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployeeCount()
         public
         onlyOwner
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getCount();
@@ -748,7 +748,7 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         onlyOwner
         validAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getId(_address);
@@ -760,7 +760,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployeeAddress(uint256 _id)
         public
         onlyOwner
-        constant
+        view
         returns (address)
     {
         return employeeStorage.getAddress(_id);
@@ -773,7 +773,7 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         onlyOwner
         validAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getLatestPayday(_address);
@@ -786,7 +786,7 @@ contract Payroll is InterfacePayroll, Ownable {
         public
         onlyOwner
         validAddress(_address)
-        constant
+        view
         returns (uint256)
     {
         return employeeStorage.getMonthlySalary(_address);
@@ -798,7 +798,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployee(uint256 _id)
         public
         onlyOwner
-        constant
+        view
         returns (address _address, uint256 _payday, uint256 _salary, uint256 _payed)
     {
         _address = employeeStorage.getAddress(_id);
@@ -813,7 +813,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getEmployeeBalance(uint256 _id)
         public
         onlyOwner
-        constant
+        view
         returns (uint256)
     {
         address employeeAddress = employeeStorage.getAddress(_id);
@@ -825,7 +825,7 @@ contract Payroll is InterfacePayroll, Ownable {
     function getTotalSupply()
         public
         onlyOwner
-        constant
+        view
         returns (uint256)
     {
         return employeeToken.totalSupply();
@@ -860,27 +860,27 @@ contract Payroll is InterfacePayroll, Ownable {
     }
 &nbsp;
     /*
-     * Internal functions
-     */
-     /// @dev sets the employee storage contract.
-     /// @param _newEmployeeStorage Address of new employee storage.
-     function setEmployeeStorage(address _newEmployeeStorage)
-         internal
-         onlyOwner
-         validAddress(_newEmployeeStorage)
-     {
-         employeeStorage = InterfaceEmployeeStorage(_newEmployeeStorage);
-     }
+    * Internal functions
+    */
+    /// @dev sets the employee storage contract.
+    /// @param _newEmployeeStorage Address of new employee storage.
+    function setEmployeeStorage(address _newEmployeeStorage)
+        internal
+        onlyOwner
+        validAddress(_newEmployeeStorage)
+    {
+        employeeStorage = InterfaceEmployeeStorage(_newEmployeeStorage);
+    }
 &nbsp;
-     /// @dev sets the employee token contract.
-     /// @param _newEmployeetoken Address of new employee token.
-     function setEmployeeToken(address _newEmployeetoken)
-         internal
-         onlyOwner
-         validAddress(_newEmployeetoken)
-     {
-         employeeToken = EmployeeToken(_newEmployeetoken);
-     }
+    /// @dev sets the employee token contract.
+    /// @param _newEmployeetoken Address of new employee token.
+    function setEmployeeToken(address _newEmployeetoken)
+        internal
+        onlyOwner
+        validAddress(_newEmployeetoken)
+    {
+        employeeToken = EmployeeToken(_newEmployeetoken);
+    }
 &nbsp;
 }
 &nbsp;</pre></td></tr>
@@ -889,7 +889,7 @@ contract Payroll is InterfacePayroll, Ownable {
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Sat Apr 14 2018 15:50:44 GMT-0700 (PDT)
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Mon Apr 30 2018 16:05:52 GMT-0700 (PDT)
 </div>
 </div>
 <script src="../prettify.js"></script>

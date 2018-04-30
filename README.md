@@ -4,6 +4,7 @@
 
 [![Build Status](https://travis-ci.org/NFhbar/Ethereum-Payroll.png?branch=master)](https://travis-ci.org/NFhbar/Ethereum-Payroll)
 [![Coverage Status](https://coveralls.io/repos/github/NFhbar/Ethereum-Payroll/badge.svg?branch=master)](https://coveralls.io/github/NFhbar/Ethereum-Payroll?branch=master)
+[![NSP Status](https://nodesecurity.io/orgs/nicolas-frega/projects/ae4d2b20-8bc2-42cd-bd8d-ca5f0942f3db/badge)](https://nodesecurity.io/orgs/nicolas-frega/projects/ae4d2b20-8bc2-42cd-bd8d-ca5f0942f3db)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/NFhbar/payroll/issues)
 
 </div>
