@@ -1,5 +1,7 @@
 # Smart Contract Payroll
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NFhbar/Ethereum-Payroll.svg)](https://greenkeeper.io/)
+
 <div>
 
 [![Build Status](https://travis-ci.org/NFhbar/Ethereum-Payroll.png?branch=master)](https://travis-ci.org/NFhbar/Ethereum-Payroll)
