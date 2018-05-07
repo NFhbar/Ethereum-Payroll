@@ -37,7 +37,7 @@
     "chai-bignumber": "^2.0.0",
     "coveralls": "^3.0.0",
     "eslint": "^4.19.1",
-    "dotenv": "^4.0.0",
+    "dotenv": "^5.0.1",
     "ethereumjs-wallet": "^0.6.0",
     "solidity-coverage": "^0.5.0",
     "solium": "^1.1.7",
@@ -46,6 +46,6 @@
     "truffle": "^4.1.7"
   },
   "dependencies": {
-    "zeppelin-solidity": "1.8.0"
+    "zeppelin-solidity": "1.9.0"
   }
 }
