@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
 /// @title EmployeeStorage contract - Manage employees for Payroll contract.
-/// @author Nicolas frega - <nicolas.frega@srax.com>
+/// @author Nicolas frega - <frega.nicolas@gmail.com>
 
 import "./InterfaceEmployeeStorage.sol";
 import "./Ownable.sol";
