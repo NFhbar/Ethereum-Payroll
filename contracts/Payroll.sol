@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
 /// @title Payroll contract - Manage employees and token payments
-/// @author Nicolas frega - <nicolas.frega@srax.com>
+/// @author Nicolas frega - <frega.nicolas@gmail.com>
 
 import "./InterfacePayroll.sol";
 import "./EmployeeStorage.sol";
