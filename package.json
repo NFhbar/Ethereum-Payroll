@@ -39,10 +39,10 @@
     "eslint": "^4.19.1",
     "dotenv": "^4.0.0",
     "ethereumjs-wallet": "^0.6.0",
-    "solidity-coverage": "^0.5.0",
+    "solidity-coverage": "^0.5.11",
     "solium": "^1.1.7",
     "truffle-wallet-provider": "0.0.5",
-    "ganache-cli": "^6.1.0",
+    "ganache-cli": "^6.12.2",
     "truffle": "^4.1.7"
   },
   "dependencies": {
